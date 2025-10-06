@@ -1,0 +1,30 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+streamlit/secrets.toml
+
+# Data (if large, ignore subfolders)
+data/pdfs/
+data/ocr_pdfs/
+data/ocr_txt/
+data/index/
+
+# Temporary / misc
+tempCodeRunnerFile.python
+*.log
+*.tmp
+*.old
